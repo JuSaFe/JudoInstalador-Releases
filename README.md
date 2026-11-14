@@ -34,14 +34,16 @@ En un equipo que ya las tiene, marca las que tienen versión nueva: sirve tambi�
 
 ## Cómo se usa
 
-Descarga el archivo de tu sistema desde la [**última versión**](../../releases/latest) y ábrelo. **No
-se instala**: se abre desde donde lo hayas descargado.
+Descarga el archivo de tu sistema desde la [**última versión**](../../releases/latest) y ábrelo. **Se
+instala solo** y desde entonces lo tienes como cualquier otra aplicación: en el menú Inicio y el
+escritorio en Windows, en Aplicaciones en macOS y en el menú de aplicaciones en Linux. El archivo
+descargado ya no hace falta.
 
 | Sistema | Archivo | Permisos |
 |---|---|---|
-| Windows 10/11 (x64) | `.exe` | Pide administrador **una vez** al abrirse; los instaladores ya no vuelven a preguntar. |
-| macOS (Apple Silicon) | `.dmg` | Ábrelo y abre el programa desde dentro. Solo pide la contraseña si tu usuario no puede escribir en Aplicaciones. |
-| Linux (x64) | `.AppImage` | Dale permiso de ejecución. Instala en `~/Applications` y en el menú, sin pedir nada. |
+| Windows 10/11 (x64) | `.exe` | Se instala como cualquier programa. Pide administrador **una vez** al abrirse; los instaladores de las aplicaciones ya no vuelven a preguntar. |
+| macOS (Apple Silicon) | `.dmg` | Ábrelo y abre el programa desde dentro: se copia solo a Aplicaciones. Solo pide la contraseña si tu usuario no puede escribir allí. |
+| Linux (x64) | `.AppImage` | Dale permiso de ejecución y ábrelo: se copia a `~/Applications` y al menú, sin pedir nada. Las aplicaciones también van ahí. |
 
 Hace falta **conexión a internet**: la red de un pabellón de competición normalmente no la tiene, así
 que se hace antes de montar los equipos.
@@ -50,7 +52,9 @@ En español, inglés, francés, alemán, ruso, chino y japonés: sale en el idio
 arriba a la derecha.
 
 Se **actualiza solo**: al abrirse comprueba si hay una versión más nueva de sí mismo y, si la hay, la
-descarga y se abre ya actualizado.
+descarga y se abre ya actualizado. Quien tenga el programa de las primeras versiones, que no se
+instalaba, no tiene que hacer nada: al abrirlo se actualiza y queda instalado (en Windows, además, el
+`.exe` suelto desaparece).
 
 > **macOS.** Como no está firmado con certificado de Apple, la primera vez macOS dirá que no puede
 > comprobar el desarrollador: clic derecho sobre el programa ▸ **Abrir** ▸ **Abrir**.
